@@ -1,0 +1,13 @@
+@use "./styles/variables" as *;
+@use "./styles/button" as *;
+@use "./styles/input" as *;
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+  color: $color-text;
+}
+
+body {
+  background-color: $color-background;
+}
